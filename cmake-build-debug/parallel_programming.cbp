@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parallel_programming"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/parallel_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/parallel_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/parallel_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parallel_programming">
+				<Option output="/home/ubuntu/parallel_programming/cmake-build-debug/parallel_programming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel_programming"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parallel_programming/fast">
+				<Option output="/home/ubuntu/parallel_programming/cmake-build-debug/parallel_programming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel_programming/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ubuntu/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss/gauss.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss/gauss.h">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_mpi/gauss_mpi.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_mpi/gauss_mpi.h">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_parall_mpi_1/gauss_parall_mpi_1.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_parall_mpi_1/gauss_parall_mpi_1.h">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_parall_mpi_2/gauss_parall_mpi_2.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/gauss_parall_mpi_2/gauss_parall_mpi_2.h">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/hello_mpi/hello_mpi.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/hello_mpi/hello_mpi.h">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/main.c">
+			<Option target="parallel_programming"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/parallel_programming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

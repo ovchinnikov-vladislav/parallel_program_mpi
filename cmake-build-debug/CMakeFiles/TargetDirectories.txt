@@ -1,0 +1,3 @@
+/home/ubuntu/parallel_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/parallel_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/parallel_programming/cmake-build-debug/CMakeFiles/parallel_programming.dir

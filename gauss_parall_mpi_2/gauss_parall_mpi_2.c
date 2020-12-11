@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 int get_chunk(int total, int commsize, int rank) {
     int n = total;
     int q = n / commsize;
@@ -30,6 +31,11 @@ void print(int rank, int commsize, int *rows, int nrows) {
 
 int start_gauss_parall_mpi_2(int argc, char **argv) {
     int n = 10;
+
+    if (argc == 2) {
+    	n = atoi(argv[1]);
+    }
+
     int rank, commsize;
     MPI_Init(&argc, &argv);
     double t = MPI_Wtime();

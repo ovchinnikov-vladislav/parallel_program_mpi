@@ -73,7 +73,7 @@ void random_init_matrix_local(double *a, int n, int *rows, int nrows, int rank, 
  * @param rank
  * @param comm_size
  */
-void elimination(double *a, int n, double *x, const int *rows, int nrows, double *tmp, int rank, int comm_size) {
+void forward_substitution(double *a, int n, double *x, const int *rows, int nrows, double *tmp, int rank, int comm_size) {
     int row = 0;
     for (int i = 0; i < n - 1; i++) {
         // Исключаем x_i
